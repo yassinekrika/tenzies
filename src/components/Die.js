@@ -1,8 +1,8 @@
 
 export default function Die(Props) {
     return (
-        <div>
-            <h2>{Props.value}</h2>
+        <div className="die-face">
+            <h1 className="die-num">{Props.value}</h1>
         </div>
     )
 }
